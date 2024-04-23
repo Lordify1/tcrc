@@ -1,0 +1,146 @@
+/* *{
+    border: 1px solid red;
+} */
+
+.tbggold{
+    background-color: gold;
+}
+
+.tbgpurple{
+    background-color: purple;
+}
+
+.tgold{
+    color: gold;
+}
+
+.tpurple{
+    color: purple;
+}
+
+.t5vh{
+    min-height: 5vh;
+}
+
+.t10vh
+{
+    min-height: 10vh;
+}
+
+.t20vh
+{
+    min-height: 20vh;
+}
+
+.t40vh
+{
+    min-height: 40vh;
+}
+
+.t50vh
+{
+    min-height: 50vh;
+}
+
+.t60vh
+{
+    min-height: 60vh;
+}
+
+.t70vh
+{
+    min-height: 70vh;
+}
+
+.t80vh
+{
+    min-height: 80vh;
+}
+
+.t90vh
+{
+    min-height: 90vh;
+}
+
+.t100vh
+{
+    min-height: 100vh;
+}
+
+
+.tbgcolor
+{
+    background: gold;
+}
+
+
+.footer_section {
+    position: relative;
+    background-color: #ffffff;
+    text-align: center;
+  }
+  
+  .footer_section p {
+    color: #00204a;
+    padding: 25px 0;
+    margin: 0;
+  }
+  
+  .footer_section p a {
+    color: inherit;
+  }
+
+
+  /* spacing div  */
+.spacingDiv
+{
+    height: 2vh;
+    border: 2px solid gold;
+    border-radius: 10px;  
+    background-color: rgb(119, 109, 47); 
+}
+
+
+ /* for the hero carousel  */
+ .carousel-item img {
+    width: 100vw;
+    height: 100vh; 
+    object-fit: cover;
+}
+
+.tcflexrow{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.tcflexcol{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tcimgfit{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.framebg{
+    background: url('/images/logo.jpg'),rgba(255,255,255,0.3);
+    background-blend-mode: saturation;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* service side styling  */
+.services .tcflexcol{
+    margin: 10px;
+}
+
+.services .tcflexcol:hover{
+    opacity: 10px;
+}
